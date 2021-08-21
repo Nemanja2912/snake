@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  background-color: #707070;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  z-index: 10;
+  position: relative;
+}
+
+.snake {
+  border-radius: 10px;
+  background-color: red;
+}
+
+.food {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
